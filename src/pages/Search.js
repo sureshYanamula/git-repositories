@@ -27,7 +27,7 @@ const Search = (props) => {
   }, [props.location.search]);
 
   // Load repositories dynamically on user search input
-  // Deebounce effect to improve the performance of the application
+  // Debounce effect to improve the performance of the application
   useEffect(() => {
     const delayed = setTimeout(() => {
       fetchRepositories(text);
