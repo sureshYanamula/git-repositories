@@ -4,7 +4,7 @@ function AComp() {
   return (
     <div>
       <p>Change Made</p>
-      <h1>Another Change Made</h1>
+      <span>Another Change Made</span>
     </div>
   );
 }
