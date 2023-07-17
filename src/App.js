@@ -6,6 +6,7 @@ import SearchAppBar from "./components/SearchAppBar";
 import Bubbling from "./components/Bubbling";
 import PropDrilling from "./components/PropDrilling";
 import AComp from "./components/AComp";
+import TypicodeUsersRedux from "./components/TypicodeUsersRedux";
 
 const App = () => {
   return (
@@ -18,6 +19,11 @@ const App = () => {
         <Route exact path="/search" component={Search} />
         <Route exact path="/bubbling" component={Bubbling} />
         <Route exact path="/propdrilling" component={PropDrilling} />
+        <Route
+          exact
+          path="/typicodeusersredux"
+          component={TypicodeUsersRedux}
+        />
       </Switch>
     </div>
   );
